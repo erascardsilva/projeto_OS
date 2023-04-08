@@ -12,7 +12,10 @@
 				<input type="submit" value="Entrar">
 
 			</form>
-            <a href="/">Voltar</a>
+
+            <a href="{{ route ('home') }}"><button >Voltar</button></a>
+
 		</div>
+
 	</div>
 @endsection

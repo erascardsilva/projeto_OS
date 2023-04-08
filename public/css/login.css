@@ -6,6 +6,7 @@
 			line-height: 1.5;
 			margin: 0;
 			padding: 0;
+            text-shadow: 0.1em 0.1em 0.2em rgb(92, 90, 90);
 		}
 		.login-container {
 			display: flex;
@@ -22,6 +23,7 @@
 			max-width: 400px;
 			width: 100%;
 			box-sizing: border-box;
+            text-shadow: 0.1em 0.1em 0.2em rgb(92, 90, 90);
 		}
 		input[type=text], input[type=password] {
 			padding: 10px;
@@ -57,4 +59,13 @@
 		}
         label{
             color: black;
+        }
+        button{
+            padding: 10px;
+			margin: 10px;
+			border: none;
+			border-radius: 5px;
+			background-color: black;
+			color: white;
+            font-size: 16px;
         }
