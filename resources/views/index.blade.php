@@ -36,6 +36,7 @@
                 <li><a href="#orcar"> Orçamento </a></li>
                 <li><a href="#contato"> Contato </a></li>
                 <li><a href="#somos"> Quem Somos</a></li>
+                <li><a href={{ route ('OS') }}>Sistema OS</a></li>
             </ul>
         </div>
         <!--Navegação ou menu para celular e afins-->
@@ -316,4 +317,4 @@
     </div>
     </div>
 
-    @@endsection
+    @endsection

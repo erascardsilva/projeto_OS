@@ -15,8 +15,13 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('home');
 
 Route::get('/calcula', function(){
     return view('calcula');
 })->name('calcula');
+
+Route::get('/OS', function(){
+    return view('OS/login');
+
+})->name('OS');
