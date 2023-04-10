@@ -25,3 +25,7 @@ Route::get('/OS', function(){
     return view('OS/login');
 
 })->name('OS');
+
+Route::get('/sistema', function(){
+    return view('OS/dashboard');
+})->name('sistemaOS');

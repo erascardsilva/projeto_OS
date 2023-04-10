@@ -1,0 +1,52 @@
+.angry-grid {
+    display: grid;
+
+    grid-template-rows: 4rem auto 45px;
+    grid-template-columns: 16rem auto;
+
+    gap: 3px;
+    height: 100%;
+
+
+ }
+
+ #menu1 {
+
+    background-color: #8ac0ed;
+    grid-row-start: 1;
+    grid-column-start: 2;
+
+    grid-row-end: 2;
+    grid-column-end: 3;
+
+ }
+ #menu2 {
+
+    background-color: #385b94;
+    grid-row-start: 2;
+    grid-column-start: 1;
+
+    grid-row-end: 4;
+    grid-column-end: 2;
+
+ }
+ #dash {
+
+    background-color: #f4eaea;
+    grid-row-start: 2;
+    grid-column-start: 2;
+
+    grid-row-end: 4;
+    grid-column-end: 3;
+
+ }
+ #logo {
+
+    background-color: #2b4c81;
+    grid-row-start: 1;
+    grid-column-start: 1;
+
+    grid-row-end: 2;
+    grid-column-end: 2;
+
+ }

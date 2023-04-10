@@ -12,7 +12,7 @@
 				<input type="submit" value="Entrar">
 
 			</form>
-
+            <a href="{{ route ('sistemaOS') }}"><button >Entrar</button></a>
             <a href="{{ route ('home') }}"><button >Voltar</button></a>
 
 		</div>
