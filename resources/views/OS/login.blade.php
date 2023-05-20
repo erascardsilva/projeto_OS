@@ -5,6 +5,7 @@
 		<div class="login">
 			<h1>VMI  O.S.</h1>
 			<form action="" method="POST">
+                @csrf
 				<label for="username">Nome de login:</label>
 				<input type="text" id="username" name="username">
 				<label for="password">Senha:</label>
